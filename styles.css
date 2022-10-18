@@ -20,6 +20,7 @@ header {
 }
 nav {
   background-color: var(--fifth);
+  padding-bottom:10px;
 }
 .nav-element {
   display: flex;
@@ -65,6 +66,12 @@ h2{
 .article_content li{
   color:white;
   margin:0;
+}
+footer{
+  background-color: var(--primary);
+  color:var(--third);
+  text-align: center;
+  padding:5px 0 5px 0;
 }
 /* section h2 {
   background-color: var(--fourth);
