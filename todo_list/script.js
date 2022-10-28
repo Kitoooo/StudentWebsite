@@ -42,10 +42,6 @@ function searchElement() {
       row.style.display = "none";
     }
   }
-
-  //highlight searched value
-  // let highlighted = document.getElementById("todo-list").innerHTML.replace(searchValueRegexp, `<mark>${searchValue}</mark>`);
-  // document.getElementById("todo-list").innerHTML = highlighted;
 }
 
 function addElement() {
