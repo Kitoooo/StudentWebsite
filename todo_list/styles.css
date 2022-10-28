@@ -1,0 +1,39 @@
+body {
+  min-height: 100vh;
+  display: flex;
+}
+.main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+}
+.wyszukiwarka,
+.dodawanie {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.wyszukiwarka button {
+  margin-left: 10px;
+}
+.dodawanie input {
+  margin-right: 10px;
+}
+
+td {
+  word-wrap: break-word;
+  min-width: 160px;
+  max-width: 160px;
+}
+
+tr td:nth-child(3),
+tr th:nth-child(3) {
+  text-align: center;
+}
+
+.highlight {
+  background-color: rgb(245, 241, 0);
+}
