@@ -1,0 +1,51 @@
+body {
+  min-height: 100vh;
+  display: flex;
+}
+.main {
+  margin: 0 auto;
+  margin-top:10px;
+}
+.top-container {
+  display: flex;
+  height: 600px;
+}
+#map {
+  min-height: 600px;
+  min-width: 600px;
+}
+.puzzle {
+  min-height: 600px;
+  min-width: 600px;
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#shuffled-puzzle {
+  width: 1200px;
+  max-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.shuffled_tile {
+  width: 150px;
+  max-height: 150px;
+}
+.tile {
+  max-width: 150px;
+  max-height: 150px;
+  min-width: 150px;
+  min-height: 150px;
+  border: 1px solid black;
+}
+/* body * {
+  border: 1px solid red;
+} */
+
+#div1 {
+  width: 350px;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
