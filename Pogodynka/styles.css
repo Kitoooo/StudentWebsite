@@ -1,0 +1,27 @@
+body {
+  min-height: 100vh;
+  display: flex;
+}
+.main {
+  margin: 0 auto;
+  margin-top:10px;
+  text-align: center;
+  width:60%;
+}
+
+.weather-card{
+  border: 1px solid #ccc;
+  margin: 5px;
+  padding:5px;
+  flex: 1 0 11%;
+}
+
+.forcast-weather-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* 
+body *{
+  border: 1px solid red;
+} */

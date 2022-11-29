@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta author="Michał Zaborowski" />
+    <title>Pogodynka</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="main.js" defer></script>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="title">
+        <h1>Pogodynka</h1>
+      </div>
+      <div class="inputs">
+        <div class="input-group mb-3">
+          <input
+            id="location-input"
+            type="text"
+            class="form-control"
+            placeholder="Miasto"
+          />
+          <div class="input-group-append">
+            <button id="search" class="btn btn-outline-secondary" type="button">
+              Sprawdź
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="current-weather" id="current-weather"></div>
+      <div class="forcast-weather" , id="forcast-weather"></div>
+    </div>
+  </body>
+</html>
