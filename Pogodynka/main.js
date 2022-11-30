@@ -125,10 +125,9 @@ document.querySelector("#search").addEventListener("click", () => {
   document.weatherApp.getWeather(city);
 });
 
-
-//XHR TEST
-function getCityCoordinates(api_key, city_name,limit = 1) {
-  let api_url = `http://api.openweathermap.org/geo/1.0/direct?q=${city_name},,&limit=${limit}&appid=${api_key}`;
+//XHR TEST current weather
+function getCurrentWeather(api_key, coords) {
+  let api_url = `https://api.openweathermap.org/data/2.5/weather?lat=${coords.lat}&lon=${coords.lon}&appid=${api_key}&units=metric`;
   let request = new XMLHttpRequest();
   request.open("GET",api_url);
   request.send();
@@ -144,5 +143,4 @@ function getCityCoordinates(api_key, city_name,limit = 1) {
     };
   });
 }
-
-getCityCoordinates(api_key,"Szczecin");
+  
