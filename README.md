@@ -7,3 +7,5 @@ This project is simple repo for my uni projects.
 * Todo_list
 * GeoPuzzle
 * Pogodynka
+
+https://kitoooo.github.io/StudentWebsite/
